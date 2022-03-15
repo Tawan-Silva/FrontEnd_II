@@ -68,5 +68,4 @@ switch (maoUsuario) {
 
 }
 
-
 alert(resultado)
