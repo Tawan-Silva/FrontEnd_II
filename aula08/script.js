@@ -61,13 +61,13 @@ btnReset.addEventListener("mouseleave", () => {
 });
 
 
-inputNome.onkeydown = (insert) => {
+inputNome.onkeypress = (insert) => {
     pNome.innerText += insert.key;
     contTeclasPress++;
     span.innerText = `Qtd de teclas pressionadas: ${contTeclasPress} vezes`;
 }
 
-inputEmail.onkeydown = (insert) => {
+inputEmail.onkeypress = (insert) => {
     pEmail.innerText += insert.key;
     contTeclasPress++;
     span.innerText = `Qtd teclas pressionadas: ${contTeclasPress} vezes`;
@@ -77,6 +77,9 @@ inputEmail.onkeydown = (insert) => {
 //     alert('Pagina carregada');
 // }, 0); 
 
+window.onload = () => {
+    alert("Página carregada");
+}
 
 
 
