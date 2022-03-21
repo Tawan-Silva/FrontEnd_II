@@ -37,5 +37,3 @@ form.addEventListener('submit', (evento) => {
     </div>
   </div>`
 });
-
-
