@@ -14,12 +14,12 @@
    justify-content: center;
    align-items: center;
    background-image: url(/aula09/img/planta.jpg); 
-   
    opacity: 1;
    background-size: cover;
    background-position: right right;
    background-repeat: no-repeat;
 }
+
 #form{
     width: 300px;
     height: 400px;
